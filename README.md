@@ -1,64 +1,110 @@
-### Hi there 👋
-
+<h1 align="center">Chiedozie Onyekwum</h1>
+<p align="center"><b>DevOps / MLOps Engineer</b> · Austin, TX</p>
 
 <p align="center">
-<h1>I am Chiedozie. Nice to have you here!</h2> 
+  <a href="https://dozman99.github.io/"><img src="https://img.shields.io/badge/Portfolio-dozman99.github.io-black?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+  <a href="https://dozman99.github.io/resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-black?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Résumé"></a>
+  <a href="https://www.linkedin.com/in/chiedozie-onyekwum/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:chiedozieonyekwum@outlook.com"><img src="https://img.shields.io/badge/Email-say%20hi-black?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+  <a href="https://cal.com/chiedozie-onyekwum/30min"><img src="https://img.shields.io/badge/Book%20a%2030--min%20call-black?style=for-the-badge&logo=cal.com&logoColor=white" alt="Book a call"></a>
 </p>
 
-  I'm a person who has a knack for solving problems and is also keen on improving my skillset as a DevOps Engineer.
-  I attained my B.Sc in Mechanical Engineering at one of the most reputable universities in Nigeria, the University of PortHacourt.
-  I am a certified Microsoft [DevOps Engineer Expert](https://www.credly.com/badges/d075be2b-5a3a-42d5-b402-6db5b023af78) and also hold certification in [AWS](https://www.credly.com/badges/78d17738-f6fa-48ab-b02a-8395b5309469), [PagerDuty](https://www.credly.com/badges/3bde2f69-b9b8-48c1-aa1d-aafd7a9019f5)...
+I build and maintain the infrastructure that applications and AI services run on, from the first commit to long after launch. I keep it secure, stable, and quick to deploy to, and I design it to heal itself, so the services it hosts run with zero downtime.
 
-  <br/>
-I have worked with AKS, configured HPA, and monitored the environment using Kibana and Fluent bit, migration to Datadog) configured alerts and tests used Azure DevOps pipelines to handle and manage our deployment to AKS, and managed secrets using Vault. I am very effective at responding to incidents, and proficient in analyzing system SLO to meet your desired SLA. I'm security conscious, using proactive measures to mitigate attacks at different OSI and infrastructure/architectural layers implementing various vulnerability indicators within my CI/CD pipeline. Lastly, I possess different managerial abilities regarding cloud policies and best practices across various cloud platforms over my years of experience. 
-  <br/>
+I start by identifying how infrastructure can fail, then design it to keep applications and AI services running when failures occur. I make changes in small, reversible steps and measure the results before trusting them.
 
-## 🔗 Know more about me 
-[![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=firefox)](https://flowcv.me/mehtansh)
-[![Resume](https://img.shields.io/badge/-Resume-black?style=for-the-badge&logo=google-drive&logoColor=white)](https://docs.google.com/document/d/1mtC1qzSRDNIto6zbCRYMfAeHbpbAcu1rBpjidB4OeZ8/edit#)
-[![Mail](https://img.shields.io/badge/-Say%20Hi!-black?style=for-the-badge&logo=gmail)](chiedozieonyekwum@outlook.com)
-[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chiedozie-onyekwum/)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/Dozman_99)
+- 🎓 M.Sc. Computer Science, Texas A&M University, December 2026
+- 💼 Open to full-time platform, DevOps and AI infrastructure roles from January 2027
 
+## By the numbers
 
+| 40+ clients | 3 days → 2 hours | 35% fewer |
+| :---: | :---: | :---: |
+| and 85+ production services | to create a new environment | integration defects in staging |
 
-## 🛠 Languages and Tools:
+## Flagship work
 
-#### Scripting-tools:
-![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+Each of these has an interactive architecture canvas on the portfolio: click a part of the system to see why it's built that way.
 
-#### Cloud:
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+- **[Feature Branch Testing + Environment Replication](https://dozman99.github.io/flagships/fbt/)** (Conclase): Terraform owns the persistent shared infrastructure. For each feature branch, a Bitbucket webhook triggers Lambda-rendered CloudFormation that creates and later deletes a fully isolated, disposable environment.
+- **[Strangler Migration with Kafka](https://dozman99.github.io/flagships/kafka-strangler/)** (Conclase): moving a monolith off RabbitMQ's push delivery, strangler style, with Kafka as a pull-based backbone so one stuck worker can't stall the whole pipeline.
+- **[DozLab](https://dozman99.github.io/flagships/dozlab/)** (independent build): a multi-tenant SaaS platform on Kubernetes, with sidecar containers, VM-backed hands-on labs, and real-time WebSocket proxying for a DevOps/security education product.
+- **[AI Inference Infrastructure Lab](https://dozman99.github.io/flagships/ai-inference-lab/)** (independent build): an end-to-end LLM serving lab on Kubernetes. Open-weight models across multiple serving engines, GPUs shared with MIG and time slicing, latency and cost measured per request.
 
-#### Monitoring:
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white)
+## Experience
 
+| Role | Where | When |
+| --- | --- | --- |
+| Graduate AI/ML Engineer Intern | Samsung Austin Semiconductor | May 2026 – Aug 2026 |
+| Research Assistant | Texas A&M University | Mar 2025 – Dec 2025 |
+| DevOps Engineer | Conclase | Aug 2022 – Jan 2025 |
+| DevOps Engineer | Gwrite | Nov 2020 – Aug 2022 |
+| Implementation Engineer | Parkway Projects Africa | Sep 2019 – Mar 2020 |
 
-#### Database:
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white)
-![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+Full details on the [Experience page](https://dozman99.github.io/experience/).
 
-#### Others:
-![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code%20-%230070D1.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+## Now
 
+- Finishing my M.Sc. in Computer Science at Texas A&M, with research on machine unlearning, privacy, and autonomous systems.
+- Leading engineering at EDAT as VP of Engineering (volunteer), designing ECO-T, a full-stack GHG accounting and ESG-verification platform.
+- Extending into AI infrastructure and inference engineering: GPU sharing with MIG and time slicing, serving with vLLM and SGLang, and tracking time to first token, KV cache usage, and GPU utilization.
 
+## Certifications
 
+- [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/en-us/users/snowpuppy/credentials/20e994cb11398236)
+- [Microsoft Certified: Azure Administrator](https://learn.microsoft.com/en-us/users/snowpuppy/credentials/9565cc0a4322528d)
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/78d17738-f6fa-48ab-b02a-8395b5309469)
+- [PagerDuty Certified Incident Responder](https://www.credly.com/badges/3bde2f69-b9b8-48c1-aa1d-aafd7a9019f5)
+- [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/0f187469-b424-41f8-ba90-721e76f95cf9)
 
-<br/>
+## Tools
+
+**Languages**<br>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**Cloud, containers and virtualization**<br>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Firecracker](https://img.shields.io/badge/Firecracker-FF9900?style=flat-square&logo=firecracker&logoColor=white)
+
+**IaC and CI/CD**<br>
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white)
+![Terragrunt](https://img.shields.io/badge/Terragrunt-5C4EE5?style=flat-square&logo=terraform&logoColor=white)
+![Spacelift](https://img.shields.io/badge/Spacelift-1E1E2E?style=flat-square)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
+
+**Messaging and data**<br>
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Monitoring and incident response**<br>
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK%20Stack-005571?style=flat-square&logo=elasticstack&logoColor=white)
+![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-49BDA5?style=flat-square&logo=fluentbit&logoColor=white)
+![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat-square&logo=pagerduty&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+
+**AI/ML**<br>
+![Kubeflow](https://img.shields.io/badge/Kubeflow-326CE5?style=flat-square&logo=kubeflow&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Databricks](https://img.shields.io/badge/Azure%20Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square)
+
+## Outside work
+
+Chess, pickup basketball, and distributed systems and AI infrastructure, and how they fail under load.
